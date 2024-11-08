@@ -1,0 +1,20 @@
+﻿<Window x:Class="Homework4_Part1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework4_Part1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas Name = "BMICanvas">
+            <Label x:Name ="heightlbl" Content="Enter your height (in inches): " Canvas.Left="87" Canvas.Top="74" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox x:Name="heightTxtBox" Canvas.Left="265" TextWrapping="Wrap" Text="" Canvas.Top="83" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label x:Name="weightlbl" Content="Enter your weight (in pounds): " Canvas.Left="87" Canvas.Top="125" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="weightTxtBox" Canvas.Left="265" TextWrapping="Wrap" Text="" Canvas.Top="129" Width="120" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button Content="Button" Canvas.Left="433" Canvas.Top="110" HorizontalAlignment="Left" VerticalAlignment="Top" Width="156" Click="Button_Click"/>
+            <TextBox x:Name="resultTxtBox" Canvas.Left="340" TextWrapping="Wrap" Text="" Canvas.Top="217" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        </Canvas>
+
+    </Grid>
+</Window>
